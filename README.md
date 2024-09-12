@@ -1,0 +1,3 @@
+In this notebook I fit a Hidden Markov Model to the Bitcoin historical price data and then use the model as part of a trading strategy that switches an investment between Bitcoin and cash to try and maximize its final portfolio value.
+
+I'm going to simplify things by working with a single averaged Bitcoin price for each day. Initially I will assume that it is always possible to buy and sell as much as I want at a particular day's price with no fees (frictionless market) and later on I will explore the effect of market friction. I will assume that there is zero interest accumulated on the cash but this would be simple to modify.
